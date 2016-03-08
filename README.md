@@ -19,4 +19,6 @@ Each solution below builds on the one that came before it; however, each solutio
 2. [Adds input form](../blob/master/solutions/2-adds-input-form.md) (MVP). Takes the first solution and adds an easy-to-use front-end form so that individual arts projects can upload their own data
 3. [Adds analysis app](../blob/master/solutions/3-adds-analysis-app.md) (MVP). Takes the second solution and adds a comprehensive reporting, analysis and data downloading web app
 
-All solutions include estimated costs based on a blended day rate of £450/day and exclude VAT.
+## Implementation cost
+
+Each proposed solution includes an estimated number of person-days to implement that solution, including previous solution steps, i.e. the estimate for *solution 2* also includes the estimated days for *solution 1* as *solution 1* is a pre-requisite for *solution 2.
