@@ -53,7 +53,7 @@ Build marketing site | 5
 
 ##On-going effort
 
-This solution would require a part-time data administer to collect, enter and manage data into the system. Suggest a budget of one person-day per arts project added.
+This solution would require a part-time data administer to collect, enter and manage data into the system. Suggest a budget of 2 person-days per arts project added.
 
 ##Advantages
 

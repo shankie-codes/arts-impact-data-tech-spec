@@ -35,14 +35,18 @@ The form built in this stage needs to be able to populate all objects in the dat
   * Participant information (a single "row" per participant with the following information)
     * Gender
     * Age
-    * Result. Suggest a set of generic indicators to indicate how the person performed relative to the desired outcomes, e.g.:
+    * Result. This *result* section forms the core of the performance data against which most reporting and analysis will be performed. Suggest a set of generic indicators to indicate how the person performed relative to the desired outcomes, e.g.:
       1. Did not meet
       2. Partially met
       3. Met
       4. Exceeded
       5. Significantly exceeded
-      This *result* section forms the core of the performance data against which most reporting and analysis will be performed.
     * Other socioeconomic indicators if required
+* Build "my data portal"
+  * Show existing submissions
+  * Edit existing submissions
+  * Edit contact details
+  * Edit details for "my organisation"
 
 \* The exceptions are the [Outcomes](../master/mocked-api/outcomes.json) and [Artforms](../master/mocked-api/artforms.json) objects. These objects exist in order to help group the projects, and so need to be centrally managed by the project adminstrator to ensure data normality.
 
@@ -51,11 +55,15 @@ The form built in this stage needs to be able to populate all objects in the dat
 Activity | Estimated days
 --- | ---
 Build solution 1 | 20
-**Total** | ** days**
+Build registration | 3
+Build review/approval process | 3
+Build data entry forms | 15
+Build portal | 10
+**Total** | **51 days**
 
 ##Technical implmentation – estimated elapsed time
 
-
+3-4 months, including *Solution 1*
 
 ##On-going effort
 
@@ -63,8 +71,10 @@ While there's less administrative overhead than Solution 1, some small amount of
 
 ##Advantages
 
-* 
+* Reduced reliance on a central administrator
+* Greater engagement of arts organisations – they can manage their own data
 
 ##Disadvantages
 
-* 
+* Increased cost
+* Reporting and analysis still relies on technical know-how
