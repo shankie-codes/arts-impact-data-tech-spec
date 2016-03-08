@@ -6,7 +6,7 @@
 
 1. Arts organisations have to contact the system administrator to add their data – they can't do it themselves
 2. Arts organisations can't see what they've already submitted
-3. End-users (i.e. any consumer of *open data* – arts organisations, government departments, other funders, interested individuals etc.) can't easy query and report on the data without fairly advanced technical skills
+3. End-users (i.e. any consumer of *open data* – arts organisations, government departments, other funders, interested individuals etc.) can't easily query and report on the data without fairly advanced technical skills
 
 This solution addresses points (1) and (2) above by:
 
@@ -47,19 +47,30 @@ The form built in this stage needs to be able to populate all objects in the dat
   * Edit existing submissions
   * Edit contact details
   * Edit details for "my organisation"
+* Further develop API endpoints to support other HTTP verbs, e.g. `POST`, `PUT`, `DELETE`
 
 \* The exceptions are the [Outcomes](../master/mocked-api/outcomes.json) and [Artforms](../master/mocked-api/artforms.json) objects. These objects exist in order to help group the projects, and so need to be centrally managed by the project adminstrator to ensure data normality.
+
+## Technical solution
+
+This solution should use the Solution 1 endpoints, but add additional HTTP verbs, e.g. `POST`, `PUT`, `DELETE` so that data can be added, edited, and deleted.
+
+The forms and user portal should each be built as separate single-page apps using a JavaScript framework such as React or Angular. The apps should make requests to the REST API endpoints, rather than a POST to the individual page's URL (and hence processed by PHP). This approach has two advantages:
+
+1. More responsive UI for the user – no waiting for full page loads
+2. In the principles of open data, it forces our applications (e.g. the portal and the submission form) to act as any other application would and use the web-facing API. This has the added benefit of ensuring that the API is feature-complete and functional, rather than a "nice to have" bolt-on to comply with an open data aspiration
 
 ##Technical implementation – estimated person-days
 
 Activity | Estimated days
 --- | ---
-Build solution 1 | 20
+Build Solution 1 | 20
 Build registration | 3
 Build review/approval process | 3
 Build data entry forms | 15
 Build portal | 10
-**Total** | **51 days**
+Extend API | 3
+**Total** | **54 days**
 
 ##Technical implmentation – estimated elapsed time
 

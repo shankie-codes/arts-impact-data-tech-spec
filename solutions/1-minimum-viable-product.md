@@ -17,7 +17,7 @@ The MVP would also implement a basic "marketing site" for the data platform to:
 
 * Define post types
 * Define custom fields
-* Write API endpoints (`/funds`, `/organisations`, `/participants`, `/projects`)
+* Write API endpoints (`/funds`, `/organisations`, `/participants`, `/projects`) – `GET` requests only
 * Write filters/queries on `/participants` endpoing
   * Participant age (range – min/max)
   * Art form (ID of `/artforms`)
@@ -33,6 +33,15 @@ The MVP would also implement a basic "marketing site" for the data platform to:
   * State the project's objectives
   * Show how to contribute
   * Show how to get data
+
+## Technical solution
+
+This solution will use:
+
+* WordPress
+* WordPress custom post types
+* Advanced Custom Fields (ACF) for WordPress
+* WordPress REST API (new feature in core or plugin, as required)
 
 ##Technical implementation – estimated person-days
 

@@ -19,6 +19,10 @@ Each solution below builds on the one that came before it; however, each solutio
 2. [Adds input form and "my data" portal](../master/solutions/2-adds-input-form.md) (MVP). Takes the first solution and adds an easy-to-use front-end form so that individual arts projects can upload their own data. Also adds a "my data" portal so that arts organisations can manage their own data
 3. [Adds analysis app](../master/solutions/3-adds-analysis-app.md) (MVP). Takes the second solution and adds a comprehensive reporting, analysis and data downloading web app
 
+While we assume that WordPress will form the core of the data store, all interactive sections of the application (i.e. the bulk of Solution 2 and Solution 3) should use a client-side JavaScript framework, such as React or Angular, to ensure the most fluid user experience.
+
+The platform should provide a first-class user experience on any modern device (desktop, tablet or phone) using modern-ish browsers. To focus the developers on implementing features rather than supporting old browsers, the platform should support all [evergreen browsers](http://eisenbergeffect.bluespire.com/evergreen-browsers/) (i.e. Chrome, Safari, Firefox, Opera, Edge) plus Internet Explorer 10 and above.
+
 ##Solution assumptions
 
 The following assumptions apply to all solutions:
@@ -28,3 +32,6 @@ The following assumptions apply to all solutions:
 ##Implementation cost
 
 Each proposed solution includes an estimated number of person-days to implement that solution, including previous solution steps, i.e. the estimate for *solution 2* also includes the estimated days for *solution 1* as *solution 1* is a pre-requisite for *solution 2*.
+
+##Ongoing hosting and technical support
+The solution will need hosting (its own virtual server) and technical support. The project should budget at least £50/month for this on an ongoing basis.
