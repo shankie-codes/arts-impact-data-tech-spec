@@ -21,4 +21,4 @@ Each solution below builds on the one that came before it; however, each solutio
 
 ## Implementation cost
 
-Each proposed solution includes an estimated number of person-days to implement that solution, including previous solution steps, i.e. the estimate for *solution 2* also includes the estimated days for *solution 1* as *solution 1* is a pre-requisite for *solution 2.
+Each proposed solution includes an estimated number of person-days to implement that solution, including previous solution steps, i.e. the estimate for *solution 2* also includes the estimated days for *solution 1* as *solution 1* is a pre-requisite for *solution 2*.
