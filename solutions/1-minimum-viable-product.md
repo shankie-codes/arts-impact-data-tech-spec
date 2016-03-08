@@ -1,4 +1,4 @@
-#Minimum viable product (MVP)
+#Solution 1 – Minimum viable product (MVP)
 
 ##Solution overview
 
