@@ -25,6 +25,7 @@
 ##Technical implementation – estimated person-days
 
 Activity | Estimated days
+--- | ---
 Define post types | 0.5
 Define custom fields | 0.5
 Write API endpoints | 4
