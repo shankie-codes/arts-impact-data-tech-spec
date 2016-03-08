@@ -1,6 +1,17 @@
-#Minimum viable product
+#Minimum viable product (MVP)
 
 ##Solution overview
+
+Build a WordPress data store for arts impact data. The MVP is to build a WordPress site that stores the data and serves it out to the public – but doesn't include the user-friendly data ingestion ([solution 2]((../master/solutions/2-adds-input-form.md))) or data analysis/export ([solution 3]((../master/solutions/3-adds-analysis-app.md))) as these are significant pieces of work in their own right.
+
+Because the MVP would not have front-end data entry for end users, data would be entered by a skilled administrator directly into the WordPress dashboard. The site's data, in the MVP, would be available through a [REST API](https://en.wikipedia.org/wiki/Representational_state_transfer) and a CSV download.
+
+The MVP would also implement a basic "marketing site" for the data platform to:
+
+* Adverstise the service's existance
+* Explain what the service is for
+* Explain how to add data to the project (i.e. contact the administrator, in this solution)
+* Explain how to get data out (document the API endpoints)
 
 ##Functional requirements
 
@@ -16,6 +27,7 @@
   * Project cost (range – min/max)
   * Number of participants (range – min/max)
   * Outcome (ID of `/outcomes`)
+* Build CSV download
 * Build basic "marketing" site to:
   * Introduce the project
   * State the project's objectives
@@ -29,9 +41,11 @@ Activity | Estimated days
 Define post types | 0.5
 Define custom fields | 0.5
 Write API endpoints | 4
-Write filters/queries | 5
+Document API endpoints | 3
+Write API filters/queries | 5
+Build CSV download | 2
 Build marketing site | 5
-Total | 15 days
+**Total** | **20 days**
 
 ##Technical implmentation – estimated elapsed time
 
