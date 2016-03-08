@@ -63,7 +63,7 @@ Build portal | 10
 
 ##Technical implmentation – estimated elapsed time
 
-3-4 months, including *Solution 1*
+3-4 months, including build of *Solution 1*
 
 ##On-going effort
 

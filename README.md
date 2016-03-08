@@ -10,7 +10,7 @@ This repo provides three potential solutions. All solutions are based with WordP
 
 * Open source
 * Has a large pool of potential developers
-* Already runs 22% of the web
+* Already runs 26% of the web
 * Is extentable with the WP-API (a REST API for WordPress)
 
 Each solution below builds on the one that came before it; however, each solution provides a solution to the problem of "how to store and report arts impact data" in its own right. The solutions:
