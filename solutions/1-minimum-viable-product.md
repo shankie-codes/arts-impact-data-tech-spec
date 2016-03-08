@@ -8,22 +8,33 @@
 * Define custom fields
 * Write API endpoints (`/funds`, `/organisations`, `/participants`, `/projects`)
 * Write filters/queries on `/participants` endpoing
-  * Participant age (range –- min/max)
+  * Participant age (range – min/max)
   * Art form (ID of `/artforms`)
   * Funding org (ID of `/organisations`)
   * Fund (ID of `/funds`)
   * Deliver org (ID of `/organisations`)
-  * Project cost (range –- min/max)
-  * Number of participants (range –- min/max)
+  * Project cost (range – min/max)
+  * Number of participants (range – min/max)
   * Outcome (ID of `/outcomes`)
+* Build basic "marketing" site to:
+  * Introduce the project
+  * State the project's objectives
+  * Show how to contribute
+  * Show how to get data
 
-##Technical implementation -- person-days
+##Technical implementation – estimated person-days
 
-10 days, estimated.
+Activity | Estimated days
+Define post types | 0.5
+Define custom fields | 0.5
+Write API endpoints | 4
+Write filters/queries | 5
+Build marketing site | 5
+Total | 15 days
 
-##Technical implmentation -- elapsed time
+##Technical implmentation – estimated elapsed time
 
-6 weeks, the bulk of it spending writing API endpoints and filtering/querying on endpoints
+6 weeks
 
 ##On-going effort
 
