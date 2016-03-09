@@ -40,6 +40,18 @@
       "id" : 5,
       "title" : "Artis Community",
       "_link" : "https://artsimpact.wales/api/organistions/5"
+    },
+    "participants" : [476,477,478,479,480,481],
+    "cohort" : {
+      "participants" : 6,
+      "proportionFemale" : 0.70,
+      "outcomeDistribution" : {
+        "0" : 0.1,
+        "1" : 0.05,
+        "2" : 0.45,
+        "3" : 0.2,
+        "4" : 0.2
+      }
     }
-  }
+  },
 ]
