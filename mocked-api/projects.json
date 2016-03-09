@@ -1,0 +1,45 @@
+[
+  {
+    "id" : "1",
+    "title" : "An example project",
+    "description" : "A community dance project to engage people with physical disabilities",
+    "artform" : {
+      "id" : 1,
+      "title" : "Dance",
+      "_link" : "https://artsimpact.wales/api/artforms/1"
+    },
+    "cost" : 10000,
+    "location" : {
+      "ward" : "Plasnewydd",
+      "lat" : 51.4932644,
+      "lon" : -3.1834387
+    },
+    "contacts" : [
+      {
+        "name" : "John Doe",
+        "role" : "Artistic director",
+        "email" : "johndoe@artsimpact.wales"
+      },
+      {
+        "name" : "Francesco Dolomiti",
+        "role" : "Systems Analyst",
+        "email" : "fran@artsimpact.wales"
+      }
+    ],
+    "fundingOrganisation" : {
+      "id" : 2,
+      "title" : "RCT Health Board",
+      "_link" : "https://artsimpact.wales/api/organistions/2"
+    },
+    "fund" : {
+      "id" : 12,
+      "title" : "RCT physical disability support fun",
+      "_link" : "https://artsimpact.wales/api/funds/12"
+    },
+    "deliveryOrganisation" : {
+      "id" : 5,
+      "title" : "Artis Community",
+      "_link" : "https://artsimpact.wales/api/organistions/5"
+    }
+  }
+]
