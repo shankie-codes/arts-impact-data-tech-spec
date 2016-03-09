@@ -1,0 +1,17 @@
+[
+  {
+    "id" : 1,
+    "title" : "Dance",
+    "_self" : "https://artsimpact.wales/api/artforms/1"
+  },
+  {
+    "id" : 2,
+    "title" : "Fine art – oil",
+    "_self" : "https://artsimpact.wales/api/artforms/2"
+  },
+  {
+    "id" : 3,
+    "title" : "Drawing",
+    "_self" : "https://artsimpact.wales/api/artforms/3"
+  }
+]

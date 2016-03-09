@@ -1,0 +1,35 @@
+[
+  {
+    "id" : 1,
+    "age" : 34,
+    "project" : {
+      "id" : 1,
+      "title" : "An example project",
+      "_link" : "https://artsimpact.wales/api/proejcts/1"
+    },
+    "gender" : "f",
+    "outcome" : "5"
+  },
+  {
+    "id" : 2,
+    "age" : 23,
+    "project" : {
+      "id" : 1,
+      "title" : "An example project",
+      "_link" : "https://artsimpact.wales/api/proejcts/1"
+    },
+    "gender" : "f",
+    "outcome" : "2"
+  },
+  {
+    "id" : 3,
+    "age" : 22,
+    "project" : {
+      "id" : 1,
+      "title" : "An example project",
+      "_link" : "https://artsimpact.wales/api/proejcts/1"
+    },
+    "gender" : "m",
+    "outcome" : "3"
+  }
+]
