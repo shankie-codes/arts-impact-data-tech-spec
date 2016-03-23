@@ -24,6 +24,8 @@ All output data in the portal (i.e. summary statistics, graphs, maps, and the da
 
 [Insert wireframes]
 
+The analysis app should be completed in three iterations, accounting for feedback from interested parties at each iteration.
+
 \* The data will not include any data that allows identification of an individual as the platform will not collect this data (e.g. name, address etc.) in the first place
 
 ##Functional requirements
