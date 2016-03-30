@@ -1,19 +1,19 @@
-#Solution 2 – Adds input form and "My Data" portal
+#Phase 2 – Adds input form and "My Data" portal
 
-##Solution overview
+##Phase overview
 
-([Solution 1]((../master/solutions/1-minimum-viable-product.md))) has three major shortcomings:
+([Phase 1]((../master/phases/1-minimum-viable-product.md))) has three major shortcomings:
 
 1. Arts organisations have to contact the system administrator to add their data – they can't do it themselves
 2. Arts organisations can't see what they've already submitted
 3. End-users (i.e. any consumer of *open data* – arts organisations, government departments, other funders, interested individuals etc.) can't easily query and report on the data without fairly advanced technical skills
 
-This solution addresses points (1) and (2) above by:
+This phase addresses points (1) and (2) above by:
 
 * Adding a comprehensive data submission form
 * Adding a "My Data" portal where arts organisations can manage their existing data
 
-The purpose of this solution is to refine the data model to ensure that it can cope with the outcomes of real-world projects. If ([Solution 1]((../master/solutions/1-minimum-viable-product.md))) was successful, it will have proved that an administrator can add project outcome data into the model. Once the front-end form is implemented, this solution will attempt to prove that unexperienced users can do the same by making the data-entry tool available to a progressively wider audience. We will test the tool with each group below and tweak according to feedback:
+The purpose of this phase is to refine the data model to ensure that it can cope with the outcomes of real-world projects. If ([Phase 1]((../master/phases/1-minimum-viable-product.md))) was successful, it will have proved that an administrator can add project outcome data into the model. Once the front-end form is implemented, this phase will attempt to prove that unexperienced users can do the same by making the data-entry tool available to a progressively wider audience. We will test the tool with each group below and tweak according to feedback:
 
 1. Sample/hypothetical data entered by administrators
 2. Real data entered by administrators
@@ -62,7 +62,7 @@ The form built in this stage needs to be able to populate all objects in the dat
 
 ## Technical solution
 
-This solution should use the Solution 1 endpoints, but add additional HTTP verbs, e.g. `POST`, `PUT`, `DELETE` so that data can be added, edited, and deleted.
+This phase should use the Phase 1 endpoints, but add additional HTTP verbs, e.g. `POST`, `PUT`, `DELETE` so that data can be added, edited, and deleted.
 
 The forms and user portal should each be built as separate single-page apps using a JavaScript framework such as React or Angular. The apps should make requests to the REST API endpoints, rather than a POST to the individual page's URL (and hence processed by PHP). This approach has two advantages:
 
@@ -73,7 +73,7 @@ The forms and user portal should each be built as separate single-page apps usin
 
 Activity | Estimated days
 --- | ---
-Build Solution 1 | 20
+Build Phase 1 | 20
 Build registration | 3
 Build review/approval process | 3
 Build data entry forms | 15
@@ -83,11 +83,11 @@ Extend API | 3
 
 ##Technical implmentation – estimated elapsed time
 
-3-4 months, including build of *Solution 1*
+3-4 months, including build of *Phase 1*
 
 ##On-going effort
 
-While there's less administrative overhead than Solution 1, some small amount of review/approval and querying will be needed for self-submitted data. We suggest 0.5 days per arts project added.
+While there's less administrative overhead than Phase 1, some small amount of review/approval and querying will be needed for self-submitted data. We suggest 0.5 days per arts project added.
 
 ##Advantages
 

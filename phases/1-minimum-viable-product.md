@@ -1,8 +1,8 @@
-#Solution 1 – Minimum viable product (MVP)
+#Phase 1 – Minimum viable product (MVP)
 
-##Solution overview
+##Phase overview
 
-Build a WordPress data store for arts impact data. The MVP is to build a WordPress site that stores the data and serves it out to the public – but doesn't include the user-friendly data ingestion ([solution 2]((../master/solutions/2-adds-input-form.md))) or data analysis/export ([solution 3]((../master/solutions/3-adds-analysis-app.md))) as these are significant pieces of work in their own right.
+Build a WordPress data store for arts impact data. The MVP is to build a WordPress site that stores the data and serves it out to the public – but doesn't include the user-friendly data ingestion ([phase 2]((../master/phases/2-adds-input-form.md))) or data analysis/export ([phase 3]((../master/phases/3-adds-analysis-app.md))) as these are significant pieces of work in their own right.
 
 Because the MVP would not have front-end data entry for end users, data would be entered by a skilled administrator directly into the WordPress dashboard. The site's data, in the MVP, would be available through a [REST API](https://en.wikipedia.org/wiki/Representational_state_transfer) and a CSV download.
 
@@ -12,7 +12,7 @@ The MVP would also implement a basic "marketing site" for the data platform to:
 
 * Adverstise the service's existance
 * Explain what the service is for
-* Explain how to add data to the project (i.e. contact the administrator, in this solution)
+* Explain how to add data to the project (i.e. contact the administrator, in this phase)
 * Explain how to get data out (document the API endpoints)
 
 ##Functional requirements
@@ -38,7 +38,7 @@ The MVP would also implement a basic "marketing site" for the data platform to:
 
 ## Technical solution
 
-This solution will use:
+This phase will use:
 
 * WordPress
 * WordPress custom post types
@@ -64,7 +64,7 @@ Build marketing site | 5
 
 ##On-going effort
 
-This solution would require a part-time data administer to collect, enter and manage data into the system. Suggest a budget of 2 person-days per arts project added.
+This phase would require a part-time data administer to collect, enter and manage data into the system. Suggest a budget of 2 person-days per arts project added.
 
 ##Advantages
 

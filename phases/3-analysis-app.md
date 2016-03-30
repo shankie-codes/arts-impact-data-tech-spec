@@ -1,10 +1,10 @@
-#Solution 3 – Analysis app
+#Phase 3 – Analysis app
 
-##Solution overview
+##Phase overview
 
-([Solution 2]((../master/solutions/1-minimum-viable-product.md))) has one major shortcoming: End-users (i.e. any consumer of *open data* – arts organisations, government departments, other funders, interested individuals etc.) can't easily query and report on the data without fairly advanced technical skills
+([Phase 2]((../master/phases/1-minimum-viable-product.md))) has one major shortcoming: End-users (i.e. any consumer of *open data* – arts organisations, government departments, other funders, interested individuals etc.) can't easily query and report on the data without fairly advanced technical skills
 
-Solution 3 creates a comprehensive querying and analysis portal. The portal should:
+Phase 3 creates a comprehensive querying and analysis portal. The portal should:
 
 * Provide comprehensive filtering based on project and cohort parameters to arrive at a target set e.g. 
   * Age range
@@ -40,7 +40,7 @@ The analysis app should be completed in three iterations, accounting for feedbac
 
 ##Technical solution
 
-Like Solution 2, Solution 3 should use the public REST API directly. Also like Solution 2, Solution 3 should use a client-side JavaScript framework, such as React or Angular to keep the interface fast and fluid.
+Like Phase 2, Phase 3 should use the public REST API directly. Also like Phase 2, Phase 3 should use a client-side JavaScript framework, such as React or Angular to keep the interface fast and fluid.
 
 The portal should be implemented as a single-page app; however, filtering should push URL parameters so that a particular filtered query can be bookmarked, shared and revisited.
 
@@ -48,7 +48,7 @@ The portal should be implemented as a single-page app; however, filtering should
 
 Activity | Estimated days
 --- | ---
-Build Solution 2 | 53
+Build Phase 2 | 53
 API abstraction | 3
 Core app data model | 8
 Filters | 10
@@ -64,7 +64,7 @@ Design and layout | 10
 
 ##On-going effort
 
-The ongoing effort for solution three will be similar to Solution 2, at perhaps 0.5 day per project added to the platform.
+The ongoing effort for Phase 3 will be similar to Phase 2, at perhaps 0.5 day per project added to the platform.
 
 ##Advantages
 
