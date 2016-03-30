@@ -48,15 +48,14 @@ The portal should be implemented as a single-page app; however, filtering should
 
 Activity | Estimated days
 --- | ---
-Build Phase 2 | 53
-API abstraction | 3
+API abstraction for app | 3
 Core app data model | 8
 Filters | 10
 Map | 5
 "Single project" view | 5
 CSV extract | 5
 Design and layout | 10
-**Total** | **99 days**
+**Total** | **47 days**
 
 ##Technical implmentation – estimated elapsed time
 

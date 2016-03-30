@@ -2,7 +2,7 @@
 
 ##Phase overview
 
-Build a WordPress data store for arts impact data. The MVP is to build a WordPress site that stores the data and serves it out to the public – but doesn't include the user-friendly data ingestion ([phase 2]((../master/phases/2-adds-input-form.md))) or data analysis/export ([phase 3]((../master/phases/3-adds-analysis-app.md))) as these are significant pieces of work in their own right.
+Build a WordPress data store for arts impact data. The MVP is to build a WordPress site that stores the data and serves it out to the public – but doesn't include the user-friendly data ingestion ([phase 2]((../master/phases/2-input-form-and-api.md))) or data analysis/export ([phase 3]((../master/phases/3-adds-analysis-app.md))) as these are significant pieces of work in their own right.
 
 Because the MVP would not have front-end data entry for end users, data would be entered by a skilled administrator directly into the WordPress dashboard. The site's data, in the MVP, would be available through a [REST API](https://en.wikipedia.org/wiki/Representational_state_transfer) and a CSV download.
 
@@ -51,11 +51,12 @@ Activity | Estimated days
 --- | ---
 Define post types | 0.5
 Define custom fields | 0.5
-Write API endpoints | 4
-Document API endpoints | 3
-Write API filters/queries | 5
+Write API endpoints | 3
+Document API endpoints | 2
+Write API filters/queries | 4
 Build CSV download | 2
 Build marketing site | 5
+Implement multilingual functionality | 3
 **Total** | **20 days**
 
 ##Technical implmentation – estimated elapsed time

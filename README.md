@@ -18,7 +18,7 @@ The solution has WordPress at its core as it is:
 Each phase below builds on the one that came before it; however, each phase provides a solution to the problem of "how to store and report arts impact data" in its own right. The solutions:
 
 1. [Minimum viable product](../master/phases/1-minimum-viable-product.md) (MVP). A WordPress application serving a [REST API](https://en.wikipedia.org/wiki/Representational_state_transfer) – with manual data entry by a system administrator.
-2. [Adds input form and "my data" portal](../master/phases/2-adds-input-form.md) (MVP). Takes the first phase and adds an easy-to-use front-end form so that individual arts projects can upload their own data. Also adds a "my data" portal so that arts organisations can manage their own data
+2. [Adds input form and "my data" portal](../master/phases/2-input-form-and-api.md) (MVP). Takes the first phase and adds an easy-to-use front-end form so that individual arts projects can upload their own data. Also adds a "my data" portal so that arts organisations can manage their own data
 3. [Adds analysis app](../master/phases/3-adds-analysis-app.md) (MVP). Takes the second phase and adds a comprehensive reporting, analysis and data downloading web app
 
 While we assume that WordPress will form the core of the data store, all interactive sections of the application (i.e. the bulk of Phase 2 and Phase 3) should use a client-side JavaScript framework, such as React or Angular, to ensure the most fluid user experience.
@@ -33,7 +33,14 @@ The following assumptions apply to all phases:
 
 ##Implementation cost
 
-Each proposed phase includes an estimated number of person-days to implement that phase, including previous phases, i.e. the estimate for *phase 2* also includes the estimated days for *phase 1* as *phase 1* is a pre-requisite for *phase 2*.
+Each proposed phase includes an estimated number of person-days to implement that phase. These should be taken lightly as the functional spec for later phases will likely be influenced by the outcome of earlier phases:
+
+Activity | Estimated days
+--- | ---
+Phase 1 – MVP | 20
+Phase 2 – Input form and API | 29
+Phase 3 – Analysis app | 47
+**Total** | **96 days**
 
 ##Ongoing hosting and technical support
 The solution will need hosting (its own virtual server) and technical support. The project should budget at least £50/month for this on an ongoing basis.

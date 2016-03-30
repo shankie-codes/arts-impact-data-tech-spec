@@ -73,13 +73,12 @@ The forms and user portal should each be built as separate single-page apps usin
 
 Activity | Estimated days
 --- | ---
-Build Phase 1 | 20
 Build registration | 3
 Build review/approval process | 3
-Build data entry forms | 15
+Build data entry forms | 10
 Build portal | 10
 Extend API | 3
-**Total** | **54 days**
+**Total** | **29 days**
 
 ##Technical implmentation – estimated elapsed time
 
