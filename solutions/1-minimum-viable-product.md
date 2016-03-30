@@ -6,6 +6,8 @@ Build a WordPress data store for arts impact data. The MVP is to build a WordPre
 
 Because the MVP would not have front-end data entry for end users, data would be entered by a skilled administrator directly into the WordPress dashboard. The site's data, in the MVP, would be available through a [REST API](https://en.wikipedia.org/wiki/Representational_state_transfer) and a CSV download.
 
+The purpose of this phase is to prove the data model matches the reality, i.e. an administrator can use the system to describe the outcomes of a real-world project.
+
 The MVP would also implement a basic "marketing site" for the data platform to:
 
 * Adverstise the service's existance

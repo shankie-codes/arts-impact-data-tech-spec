@@ -13,6 +13,13 @@ This solution addresses points (1) and (2) above by:
 * Adding a comprehensive data submission form
 * Adding a "My Data" portal where arts organisations can manage their existing data
 
+The purpose of this solution is to refine the data model to ensure that it can cope with the outcomes of real-world projects. If ([Solution 1]((../master/solutions/1-minimum-viable-product.md))) was successful, it will have proved that an administrator can add project outcome data into the model. Once the front-end form is implemented, this solution will attempt to prove that unexperienced users can do the same by making the data-entry tool available to a progressively wider audience. We will test the tool with each group below and tweak according to feedback:
+
+1. Sample/hypothetical data entered by administrators
+2. Real data entered by administrators
+3. Real data entered by government agencies
+4. Real data entered by arts organisations
+
 ##Functional requirements
 
 The form built in this stage needs to be able to populate all objects in the data model (approximately represented by the [Mock API](../master/mocked-api))\*:
@@ -48,6 +55,8 @@ The form built in this stage needs to be able to populate all objects in the dat
   * Edit contact details
   * Edit details for "my organisation"
 * Further develop API endpoints to support other HTTP verbs, e.g. `POST`, `PUT`, `DELETE`
+* Add authentication solution for POST, PUT and DELETE request (GET requests should always remain public). Easy solution here is WordPress cookies for in-domain apps, or OAuth2 if the apps will be hosted elsewhere (or we want to provide 'edit' API access to third-party apps)
+* Update API documentation
 
 \* The exceptions are the [Outcomes](../master/mocked-api/outcomes.json) and [Artforms](../master/mocked-api/artforms.json) objects. These objects exist in order to help group the projects, and so need to be centrally managed by the project adminstrator to ensure data normality.
 
