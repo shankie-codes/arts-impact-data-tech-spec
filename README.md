@@ -34,6 +34,8 @@ Takes the second phase and adds a comprehensive reporting, analysis and data dow
 
 ![Analyisis app](wireframes/all-views.png)
 
+[A click-through-able version of these wireframes is available here](http://adobe.ly/1VKE2OX)
+
 While we assume that WordPress will form the core of the data store, all interactive sections of the application (i.e. the bulk of Phase 2 and Phase 3) should use a client-side JavaScript framework, such as React or Angular, to ensure the most fluid user experience.
 
 The platform should provide a first-class user experience on any modern device (desktop, tablet or phone) using modern-ish browsers. To focus the developers on implementing features rather than supporting old browsers, the platform should support all [evergreen browsers](http://eisenbergeffect.bluespire.com/evergreen-browsers/) (i.e. Chrome, Safari, Firefox, Opera, Edge) plus Internet Explorer 10 and above.
