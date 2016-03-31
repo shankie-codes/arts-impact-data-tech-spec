@@ -10,11 +10,11 @@ This is a standard query view with aggregate figures displayed at the top of the
 
 ![Query screen](main-query.png)
 
-##query-filters.png
+##open-filters.png
 
 This shows the filters available to customise the query.
 
-![Open filters](query-filters.png)
+![Open filters](open-filters.png)
 
 ##query-map.png
 
