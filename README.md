@@ -15,11 +15,26 @@ The solution has WordPress at its core as it is:
 * Already runs 26% of the web
 * Is extentable with the WP-API (a REST API for WordPress)
 
+
+##Phases
+
 Each phase below builds on the one that came before it; however, each phase provides a solution to the problem of "how to store and report arts impact data" in its own right. The solutions:
 
-1. [Minimum viable product](../master/phases/1-minimum-viable-product.md) (MVP). A WordPress application serving a [REST API](https://en.wikipedia.org/wiki/Representational_state_transfer) – with manual data entry by a system administrator.
-2. [Adds input form and "my data" portal](../master/phases/2-input-form-and-api.md) (MVP). Takes the first phase and adds an easy-to-use front-end form so that individual arts projects can upload their own data. Also adds a "my data" portal so that arts organisations can manage their own data
-3. [Adds analysis app](../master/phases/3-adds-analysis-app.md) (MVP). Takes the second phase and adds a comprehensive reporting, analysis and data downloading web app
+###[Minimum viable product](phases/1-minimum-viable-product.md) (MVP)
+
+A WordPress application serving a [REST API](https://en.wikipedia.org/wiki/Representational_state_transfer) – with manual data entry by a system administrator.
+
+###[Adds input form and "my data" portal](phases/2-input-form-and-api.md) (MVP).
+
+Takes the first phase and adds an easy-to-use front-end form so that individual arts projects can upload their own data. Also adds a "my data" portal so that arts organisations can manage their own data
+
+###[Adds analysis app](phases/3-adds-analysis-app.md) (MVP)
+
+Takes the second phase and adds a comprehensive reporting, analysis and data downloading web app.
+
+![Analyisis app](wireframes/all-views.png)
+
+[A click-through-able version of these wireframes is available here](http://adobe.ly/1VKE2OX)
 
 While we assume that WordPress will form the core of the data store, all interactive sections of the application (i.e. the bulk of Phase 2 and Phase 3) should use a client-side JavaScript framework, such as React or Angular, to ensure the most fluid user experience.
 
