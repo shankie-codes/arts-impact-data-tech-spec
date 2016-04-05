@@ -29,7 +29,6 @@ The form built in this stage needs to be able to populate all objects in the dat
 * Build data entry process
   * Project information
     * Funding organisation (choose from list defined at `/organisations`)
-    * Funding source (choose from list defined at `/funds`)
     * Outcome (choose from list defined at `/outcomes`)
     * Project contacts
       * Name

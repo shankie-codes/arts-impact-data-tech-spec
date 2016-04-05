@@ -19,12 +19,11 @@ The MVP would also implement a basic "marketing site" for the data platform to:
 
 * Define post types
 * Define custom fields
-* Write API endpoints (`/funds`, `/organisations`, `/participants`, `/projects`) – `GET` requests only
+* Write API endpoints (`/organisations`, `/participants`, `/projects`) – `GET` requests only
 * Write filters/queries on `/participants` endpoing
   * Participant age (range – min/max)
   * Art form (ID of `/artforms`)
   * Funding org (ID of `/organisations`)
-  * Fund (ID of `/funds`)
   * Deliver org (ID of `/organisations`)
   * Project cost (range – min/max)
   * Number of participants (range – min/max)

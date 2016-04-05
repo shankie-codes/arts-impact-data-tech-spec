@@ -9,12 +9,16 @@
       "_link" : "https://artsimpact.wales/api/artforms/1"
     },
     "cost" : 10000,
+    "primarySocialOutcome" : "A definition of the project's number one social outcome",
+    "otherSocialOutcomes" : "A space for the project to write about secondary outcomes",
+    "startDate" : 1092890234,
+    "finishDate" : 109289900,
     "location" : {
+      "County" : "Cardiff",
       "ward" : "Plasnewydd",
       "lat" : 51.4932644,
       "lon" : -3.1834387
     },
-    ""
     "contacts" : [
       {
         "name" : "John Doe",
@@ -27,24 +31,48 @@
         "email" : "fran@artsimpact.wales"
       }
     ],
-    "fundingOrganisation" : {
-      "id" : 2,
-      "title" : "Cwm Taf Health Board",
-      "_link" : "https://artsimpact.wales/api/organistions/2"
-    },
-    "fund" : {
-      "id" : 12,
-      "title" : "RCT physical disability support fund",
-      "_link" : "https://artsimpact.wales/api/funds/12"
-    },
-    "deliveryOrganisation" : {
-      "id" : 5,
-      "title" : "Artis Community",
-      "_link" : "https://artsimpact.wales/api/organistions/5"
-    },
+    "fundingOrganisations" : [
+      {
+        "id" : 2,
+        "title" : "Cwm Taf Health Board",
+        "_link" : "https://artsimpact.wales/api/organistions/2"
+      },
+      {
+        "id" : 2,
+        "title" : "Cwm Taf Health Board",
+        "_link" : "https://artsimpact.wales/api/organistions/2"
+      }
+    ],
+    "deliveryOrganisations" : [
+      {
+        "id" : 5,
+        "title" : "Artis Community",
+        "_link" : "https://artsimpact.wales/api/organistions/5"
+      },
+      {
+        "id" : 5,
+        "title" : "Artis Community",
+        "_link" : "https://artsimpact.wales/api/organistions/5"
+      },
+    ],
+    "partnerOrganisations" : [
+      {
+        "id" : 6,
+        "title" : "MIND",
+        "_link" : "https://artsimpact.wales/api/organistions/6"
+      },
+      {
+        "id" : 6,
+        "title" : "MIND",
+        "_link" : "https://artsimpact.wales/api/organistions/6"
+      },
+    ],
     "participants" : [476,477,478,479,480,481],
     "cohort" : {
       "participants" : 6,
+      "averageAge" : 34,
+      "minAge" : 20,
+      "maxAge" : 50,
       "proportionFemale" : 0.70,
       "outcomeDistribution" : {
         "0" : 0.1,
@@ -53,6 +81,10 @@
         "3" : 0.2,
         "4" : 0.2
       }
+    },
+    "attachments" : {
+      "url" : "https://link.to.a.document/somewhere-else-on-the-internet",
+      "file" : "<asldjoieuq989q8u91903ur1938-472-9348nvqc8n3>9-8nc198ry34rnq</asldjoieuq989q8u91903ur1938-472-9348nvqc8n3>"
     }
   },
 ]
