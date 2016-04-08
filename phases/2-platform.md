@@ -1,14 +1,30 @@
-#Phase 1 – Minimum viable product (MVP)
+#Phase 2 – Build a platform to serve the data model
 
 ##Phase overview
 
-Build a WordPress data store for arts impact data. The MVP is to build a WordPress site that stores the data and serves it out to the public – but doesn't include the user-friendly data ingestion ([phase 2]((../master/phases/2-input-form-and-api.md))) or data analysis/export ([phase 3]((../master/phases/3-adds-analysis-app.md))) as these are significant pieces of work in their own right.
+Build a permanent home for the data that replicates the data model prototyped in Phase 1. AirTable is great for mocking up data models, but has a number of shortcomings:
 
-Because the MVP would not have front-end data entry for end users, data would be entered by a skilled administrator directly into the WordPress dashboard. The site's data, in the MVP, would be available through a [REST API](https://en.wikipedia.org/wiki/Representational_state_transfer) and a CSV download.
+* No multilingual support
+* No ability to build a wider "site" around the data
+* No ability to customise API
 
-The purpose of this phase is to prove the data model matches the reality, i.e. an administrator can use the system to describe the outcomes of a real-world project.
+The purpose of this phase is to build a platform that's a permanent home for the data – and addresses the shortcomings of AirTable. The platform will be built by customising an existing web framework, such as WordPress or a NodeJS stack. The rest of this document will assume WordPress (due to its built-in admin interface). The phase needs to build a platform that:
 
-The MVP would also implement a basic "marketing site" for the data platform to:
+* Gives administrators an interface to enter data
+* Serves that data back out to the world using a JSON API
+
+The rest of this solution assumes WordPress as the platoform as:
+
+* It's open source
+* Has a large pool of potential developers
+* Already runs 26% of the web
+* Is extentable with the WP-API (a REST API for WordPress)
+
+However, this platform could be built on other software, such as the MEAN stack for NodeJS, without issue.
+
+This phase doesn't include end-user-friendly data entry ([phase 3]((../master/phases/3-input-form.md))). Because this phase does not have front-end data entry for end users, data would be entered by a skilled administrator directly into the WordPress dashboard. The site's data, would then be available through a [REST API](https://en.wikipedia.org/wiki/Representational_state_transfer) and a CSV download.
+
+This phase would also implement a basic "marketing site" for the data platform to:
 
 * Adverstise the service's existance
 * Explain what the service is for
