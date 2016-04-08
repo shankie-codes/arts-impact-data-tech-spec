@@ -21,18 +21,4 @@ Post-mortem | 2
 
 ##Technical implmentation – estimated elapsed time
 
-2 months
-
-##On-going effort
-
-While there's less administrative overhead than Phase 2, some small amount of review/approval and querying will be needed for self-submitted data. We suggest 0.5 days per arts project added.
-
-##Advantages
-
-* Reduced reliance on a central administrator
-* Greater engagement of arts organisations – they can manage their own data
-
-##Disadvantages
-
-* Increased cost
-* Reporting and analysis still relies on technical know-how
+2 weeks
