@@ -2,7 +2,7 @@
 
 ##Phase overview
 
-([Phase 2]((../master/phases/2-platform.md))) has two major shortcomings:
+[Phase 2](2-platform.md) has two major shortcomings:
 
 1. Arts organisations have to contact the system administrator to add their data – they can't do it themselves
 2. Arts organisations can't see what they've already submitted

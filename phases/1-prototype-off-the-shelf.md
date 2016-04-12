@@ -12,7 +12,7 @@ This stage has minimal development, but serves to lock down the data model befor
 
 This phase will use:
 
-* Airtable (or similar)
+* AirTable (or similar)
 * Postman API client for validating output
 
 ##Technical implementation – estimated elapsed time
