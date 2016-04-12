@@ -67,17 +67,6 @@ The forms and user portal should each be built as separate single-page apps usin
 1. More responsive UI for the user – no waiting for full page loads
 2. In the principles of open data, it forces our applications (e.g. the portal and the submission form) to act as any other application would and use the web-facing API. This has the added benefit of ensuring that the API is feature-complete and functional, rather than a "nice to have" bolt-on to comply with an open data aspiration
 
-##Technical implementation – estimated person-days
-
-Activity | Estimated days
---- | ---
-Build registration | 3
-Build review/approval process | 3
-Build data entry forms | 10
-Build portal | 10
-Extend API | 3
-**Total** | **29 days**
-
 ##Technical implementation – estimated elapsed time
 
 2 months

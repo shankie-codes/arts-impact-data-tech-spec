@@ -9,16 +9,6 @@ Earlier phases of this project developed a platform for serving data about the p
 
 This will give the project a strong basis on which to apply for further funding.
 
-
-##Technical implementation – estimated person-days
-
-Activity | Estimated days
---- | ---
-Hack day prep | 2
-Hack dat | 2
-Post-mortem | 2
-**Total** | **6 days**
-
 ##Technical implementation – estimated elapsed time
 
 2 weeks

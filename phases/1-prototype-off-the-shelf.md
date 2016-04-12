@@ -15,15 +15,6 @@ This phase will use:
 * Airtable (or similar)
 * Postman API client for validating output
 
-##Technical implementation – estimated person-days
-
-Activity | Estimated days
---- | ---
-Refine data model (1st iteration) | 4
-Refine data model (2nd iteration) | 2
-Refine data model (3rd iteration) | 2
-**Total** | **8 days**
-
 ##Technical implementation – estimated elapsed time
 
 6 weeks

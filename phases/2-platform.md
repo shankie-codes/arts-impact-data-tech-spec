@@ -60,20 +60,6 @@ This phase will use:
 * Advanced Custom Fields (ACF) for WordPress
 * WordPress REST API (new feature in core or plugin, as required)
 
-##Technical implementation – estimated person-days
-
-Activity | Estimated days
---- | ---
-Define post types | 0.5
-Define custom fields | 0.5
-Write API endpoints | 3
-Document API endpoints | 2
-Write API filters/queries | 4
-Build CSV download | 2
-Build marketing site | 5
-Implement multilingual functionality | 3
-**Total** | **20 days**
-
 ##Technical implementation – estimated elapsed time
 
 6 weeks
