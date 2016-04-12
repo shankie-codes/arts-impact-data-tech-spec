@@ -48,18 +48,3 @@ Although out of scope for this project, the wireframes below represent the event
 The following assumptions apply to all phases:
 
 * **Each project has a single outcome/objective**. Although we recognise that projects may have multiple objectives, this solution assumes that they have a primary objective against which their success can be measured (e.g. *reduction in unemployment*, *improved life satisfaction*, *reduced obesity* etc.). This assumption is critical as it allows a vastly simplified data model that doesn't depend on the data model describing every permutation and combination of objectives. This is easier to explain if we give a counter-example: if a project has multiple objectives, there's no way to conclusively establish a relationship between the outcomes (e.g. 70% of participants showed an improvement in their life satisfaction) and the cost per head of the project
-
-##Implementation cost
-
-Each proposed phase includes an estimated number of person-days of tech budget to implement that phase. These should be taken lightly as the functional spec for later phases will likely be influenced by the outcome of earlier phases.
-
-Activity | Estimated days
---- | ---
-Phase 1 – Prototype | 8
-Phase 2 – Platform | 20
-Phase 3 – Input form and API | 29
-Phase 3 – Hack day | 6
-**Total** | **63 days**
-
-##Ongoing hosting and technical support
-The solution will need hosting (its own virtual server) and technical support. The project should budget at least £50/month for this on an ongoing basis.
