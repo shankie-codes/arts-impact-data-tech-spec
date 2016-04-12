@@ -5,23 +5,23 @@ The purpose of this repo is to document the technical solution for the Arts Impa
 * Allow for easy upload of project and participant data by community arts organisations and public agencies
 * Allow for the uploaded data to be shared, both via an API and through more traditional means (e.g. CSV)
 
-Ultimately, the platform needs to provide a reporting and analysis web application for both artists and funders to be able to query this data to develop insight into where money should be spent, however, that is largely beyond the scope of this project.
+Ultimately, the platform needs to provide a *reporting and analysis web application* for both artists and funders to be able to query this data to develop insight into where money should be spent, however, that is largely beyond the scope of this project.
 
-This repo documents the solution based on three core phases.
+This repo documents the solution based on four core phases.
 
 ##Phases
 
-Each phase below builds on the one that came before it; however, each phase provides a solution to the problem of "how to store and report arts impact data" in its own right. The solutions:
+Each phase below builds on the one that came before it:
 
-###[Phase 1 – Prototype using off the shelf services](phases/1-prototype-off-the-shelf.md)
+###[Phase 1 – Prototype using off-the-shelf services](phases/1-prototype-off-the-shelf.md)
 
-Build a prototype of the data model using AirTable to allow for quick iterations of the model. 
+Build a prototype of the data model using AirTable to allow for quick iterations of the model.
 
 ###[Phase 2 – Build a platform to serve the data model](phases/2-platform.md)
 
 Build a platform to serve the data model developed in Phase 1 and serve [REST/JSON API](https://en.wikipedia.org/wiki/Representational_state_transfer) – with manual data entry by a system administrator.
 
-###[Phase 3 – Adds input form and "my data" portal](phases/3-input-form.md)
+###[Phase 3 – Add front-end input form and "my data" portal](phases/3-input-form.md)
 
 Takes Phase 2 and adds an easy-to-use front-end form so that individual arts projects can upload their own data. Also adds a "my data" portal so that arts organisations can manage their own data
 
@@ -47,4 +47,4 @@ Although out of scope for this project, the wireframes below represent the event
 
 The following assumptions apply to all phases:
 
-* **Each project has a single outcome/objective**. Although we recognise that projects may have multiple objectives, this solution assumes that they have a primary objective against which their success can be measured (e.g. *reduction in unemployment*, *improved life satisfaction*, *reduced obesity* etc.). This assumption is critical as it allows a vastly simplified data model that doesn't depend on the data model describing every permutation and combination of objectives. This is easier to explain if we give a counter-example: if a project has multiple objectives, there's no way to conclusively establish a relationship between the outcomes (e.g. 70% of participants showed an improvement in their life satisfaction) and the cost per head of the project
+* **Each project has a single outcome/objective**. Although we recognise that projects may have multiple objectives, this solution assumes that they have a primary objective against which their success can be measured (e.g. *reduction in unemployment*, *improved life satisfaction*, *reduced obesity* etc.). This assumption is critical as it allows a vastly simplified data model that doesn't depend on the data model describing every permutation and combination of objectives. This is easier to explain if we give a counter-example: if a project has multiple objectives, there's no way to conclusively establish a relationship between the outcomes (e.g. 70% of participants showed an improvement in their life satisfaction) and the cost per head of the project.
