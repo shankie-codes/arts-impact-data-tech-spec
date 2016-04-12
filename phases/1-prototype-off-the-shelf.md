@@ -2,7 +2,7 @@
 
 ##Phase overview
 
-Develop a data model, mock it up, and test it using an off-the shelf product. This repo contains a first guess at a [data model](mocked-api) for Arts Impact Data; however, this model hasn't been validated with either data providers or data consumers. This first phase should validate that the model we've imagined works and changed it if it doesn't.
+Develop a data model, mock it up, and test it using an off-the shelf product. This repo contains a first guess at a [data model](../mocked-api) for Arts Impact Data; however, this model hasn't been validated with either data providers or data consumers. This first phase should validate that the model we've imagined works and changed it if it doesn't.
 
 Rather than build the data model into a platform, we suggest using an off-the-shelf tool called [AirTable](https://airtable.com/). AirTable allows us to mock up the data model very quickly using an app that looks like a spreadsheet – but gives us both a data entry form and JSON API for free, allowing us to quickly iterate the model at test the outputs.
 
