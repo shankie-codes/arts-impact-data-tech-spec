@@ -24,7 +24,7 @@ Refine data model (2nd iteration) | 2
 Refine data model (3rd iteration) | 2
 **Total** | **8 days**
 
-##Technical implmentation – estimated elapsed time
+##Technical implementation – estimated elapsed time
 
 6 weeks
 
@@ -36,7 +36,7 @@ None anticipated.
 
 * No code
 * Quick turnaround, easy to make changes
-* Mockup data entry forms and API for free
+* Mock-up data entry forms and API for free
 
 ##Disadvantages
 

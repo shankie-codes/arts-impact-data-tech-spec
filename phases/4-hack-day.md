@@ -19,6 +19,6 @@ Hack dat | 2
 Post-mortem | 2
 **Total** | **6 days**
 
-##Technical implmentation – estimated elapsed time
+##Technical implementation – estimated elapsed time
 
 2 weeks

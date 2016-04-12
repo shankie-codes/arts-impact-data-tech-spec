@@ -13,19 +13,19 @@ This repo documents the solution based on three core phases.
 
 Each phase below builds on the one that came before it; however, each phase provides a solution to the problem of "how to store and report arts impact data" in its own right. The solutions:
 
-###[Prototype using off the shelf services](phases/1-prototype-off-the-shelf.md)
+###[Phase 1 – Prototype using off the shelf services](phases/1-prototype-off-the-shelf.md)
 
 Build a prototype of the data model using AirTable to allow for quick iterations of the model. 
 
-###[Build a platform to serve the data model](phases/2-platform.md)
+###[Phase 2 – Build a platform to serve the data model](phases/2-platform.md)
 
 Build a platform to serve the data model developed in Phase 1 and serve [REST/JSON API](https://en.wikipedia.org/wiki/Representational_state_transfer) – with manual data entry by a system administrator.
 
-###[Adds input form and "my data" portal](phases/3-input-form.md)
+###[Phase 3 – Adds input form and "my data" portal](phases/3-input-form.md)
 
 Takes Phase 2 and adds an easy-to-use front-end form so that individual arts projects can upload their own data. Also adds a "my data" portal so that arts organisations can manage their own data
 
-###[Application hack day/workshop](phases/4-hack-day.md)
+###[Phase 4 – Application hack day/workshop](phases/4-hack-day.md)
 
 This project exists to prove if the data model works. It will be best proved if:
 
@@ -39,7 +39,7 @@ As a result, we're proposing organising a hack day/workshop that will bring toge
 
 Although out of scope for this project, the wireframes below represent the eventual goal of this platform – an easy-to-use tool for artists and funders to understand the efficacy of community arts projects.
 
-![Analyisis app](wireframes/all-views.png)
+![Analysis app](wireframes/all-views.png)
 
 [A click-through-able version of these wireframes is available here](http://adobe.ly/1VKE2OX)
 
@@ -51,7 +51,7 @@ The following assumptions apply to all phases:
 
 ##Implementation cost
 
-Each proposed phase includes an estimated number of person-days of tech budet to implement that phase. These should be taken lightly as the functional spec for later phases will likely be influenced by the outcome of earlier phases.
+Each proposed phase includes an estimated number of person-days of tech budget to implement that phase. These should be taken lightly as the functional spec for later phases will likely be influenced by the outcome of earlier phases.
 
 Activity | Estimated days
 --- | ---

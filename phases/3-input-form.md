@@ -78,7 +78,7 @@ Build portal | 10
 Extend API | 3
 **Total** | **29 days**
 
-##Technical implmentation – estimated elapsed time
+##Technical implementation – estimated elapsed time
 
 2 months
 

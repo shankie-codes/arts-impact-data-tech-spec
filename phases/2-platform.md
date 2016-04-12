@@ -13,12 +13,12 @@ The purpose of this phase is to build a platform that's a permanent home for the
 * Gives administrators an interface to enter data
 * Serves that data back out to the world using a JSON API
 
-The rest of this solution assumes WordPress as the platoform as:
+The rest of this solution assumes WordPress as the platform as:
 
 * It's open source
 * Has a large pool of potential developers
 * Already runs 26% of the web
-* Is extentable with the WP-API (a REST API for WordPress)
+* Is extendable with the WP-API (a REST API for WordPress)
 
 However, this platform could be built on other software, such as the MEAN stack for NodeJS, without issue.
 
@@ -26,7 +26,7 @@ This phase doesn't include end-user-friendly data entry ([phase 3]((../master/ph
 
 This phase would also implement a basic "marketing site" for the data platform to:
 
-* Adverstise the service's existance
+* Advertise the service's existence
 * Explain what the service is for
 * Explain how to add data to the project (i.e. contact the administrator, in this phase)
 * Explain how to get data out (document the API endpoints)
@@ -36,7 +36,7 @@ This phase would also implement a basic "marketing site" for the data platform t
 * Define post types
 * Define custom fields
 * Write API endpoints (`/organisations`, `/participants`, `/projects`) – `GET` requests only
-* Write filters/queries on `/participants` endpoing
+* Write filters/queries on `/participants` endpoint
   * Participant age (range – min/max)
   * Art form (ID of `/artforms`)
   * Funding org (ID of `/organisations`)
@@ -74,7 +74,7 @@ Build marketing site | 5
 Implement multilingual functionality | 3
 **Total** | **20 days**
 
-##Technical implmentation – estimated elapsed time
+##Technical implementation – estimated elapsed time
 
 6 weeks
 
